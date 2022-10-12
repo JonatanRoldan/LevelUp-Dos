@@ -21,16 +21,23 @@ body{
   align-items: center;
   flex-direction: column;
   border-radius: 18px;
-  background: #ff6600;
-  box-shadow:  26px 26px 52px #a14000,-26px -26px 52px #ff8c00;
+  background: #ed8f02;
+  box-shadow:  26px 26px 52px #a44302db,-26px -26px 52px #e48006;
 }
-
+.title{
+  font-size: 4rem;
+}
 .count{
-    font-size: 9rem;
+  font-size: 9rem;
 }
 button{
-    cursor: pointer;
-    background: #535353;
-    border: none;
-    border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #a44302db; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #000000; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
 }

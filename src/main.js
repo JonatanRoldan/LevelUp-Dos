@@ -6,16 +6,17 @@ const reset = document.getElementById("reset");
 let numero = 0;
 
 sum.addEventListener("click",()=>{
+  contador.style.color = "Green";
   numero++;
   contador.innerHTML=numero;
 });
 rest.addEventListener("click",()=>{
-  if(numero>0){
+  contador.style.color = "Red";
     numero--;
     contador.innerHTML=numero;
-  } 
 });
 reset.addEventListener("click",()=>{
+    contador.style.color = "black";
     numero=0;
     contador.innerHTML=numero;
   });
